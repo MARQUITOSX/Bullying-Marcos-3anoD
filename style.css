@@ -6,14 +6,14 @@ body{
 }
 
 header{
-  background-color: #4CAF50;
+  background-color: #CC9900;
   color: #FFFFFF;
   padding: 1em 0;
   text-align: center;
 }
 
 nav{
-  background-color: #333333;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -29,6 +29,26 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #dddddd;
+  background-color: #DDDDDD;
   color: black;
+}
+
+.container {
+  paddiing: 20px;
+}
+
+.sessao{
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.1); 
+margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer{
+background-color: #CC9900;
+color: white;
+  text-align: center;
+  Padding: 10px;
+  with: 100%;
 }
